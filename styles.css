@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+    background-image: url('catedrale.jpg');
+     background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    
+}
+
+header {
+    background-color: #3056f0;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #750af8; 
+    border-radius: 5px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, textarea, button {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: #750af8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #750af8;
+}
+
+/* Responsive Design */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table, form, ol, ul {
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+section, header {
+    max-width: 800px;
+    margin: auto;
+}
